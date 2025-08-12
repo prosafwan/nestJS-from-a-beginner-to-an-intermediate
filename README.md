@@ -72,9 +72,17 @@ With Mau, you can deploy your application in just a few clicks, allowing you to 
 
 ## Resources
 
+```bash
 short from cli
 nest g s user # service
 nest g co user # controller
+
+npm i class-validator class-transformer
+
+nest g pipe common/pipes/uppercase
+
+
+```
 
 Check out a few resources that may come in handy when working with NestJS:
 
